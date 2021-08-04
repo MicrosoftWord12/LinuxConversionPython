@@ -22,6 +22,3 @@ class ListDirs(object):
     def _lsAddon(self):
         for e in os.listdir():
             print(e)
-
-
-

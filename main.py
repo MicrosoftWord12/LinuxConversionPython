@@ -4,16 +4,22 @@ import os
 
 # My Classes
 from ListDirs import ls
+from ChangeDirs import cd
 
 
 class Prompt(Cmd):
     prompt = f"<{os.getlogin()}> "
 
-    def do_ls(self, s):
+    @staticmethod
+    def do_ls(s):
         ls.ListDirs().lsHandler(s)
 
+    @staticmethod
+    def do_cd(s: str):
+        cd.ChangeDirs().cdHandler(s)
 
-    def do_test(self, s):
+    @staticmethod
+    def do_test(s):
         print("testing Console")
 
 

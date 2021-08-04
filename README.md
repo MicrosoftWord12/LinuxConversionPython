@@ -6,18 +6,22 @@
 
 #### Working on
 Commands:
-- ls
+  - [ ] cd
+    - [ ] cd ..
 
 #### Need to do
 
-- [ ] ls
-    - List directories
+
 
     
 #### Done
 - [x] Need to create a command handler
   - Using CMD module
   
-#### Cannot Figure out
-- [ ] ls -la
+- [x] ls
+    - List directories
+  
+- [x] ls -la
     - List **ALL** Directories
+  
+#### Cannot Figure out
